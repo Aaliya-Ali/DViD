@@ -62,7 +62,7 @@ const Home = () => {
       </div>
       <div className="topBanner">
         <TabList defaultActiveKey={1} tabStyle="bar">
-          <Tab tabKey={1} tabName={'Movies'}>
+          <Tab tabKey={1} tabName={'Videos'}>
             <div className='scene'>
               <img src={movies[0].Scene} className='sceneImg'></img>
               <img src={movies[0].Logo} className='sceneLogo'></img>
@@ -108,7 +108,6 @@ const Home = () => {
               })}
             </div>
           </Tab>
-          <Tab tabKey={2} tabName={'Series'} isDisabled={true}></Tab>
           <Tab tabKey={3} tabName={'MyList'}>
             <div className='ownListContent'>
               <div className='title'>

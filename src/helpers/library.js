@@ -1,66 +1,47 @@
-import titanicS from "../images/titanicScene.png";
-import tita from "../images/tit.png";
-import tpoh from "../images/tpoh.png";
-import up from "../images/up1.jpg";
-import upScene from "../images/upScene.jpg";
-import upLogo from "../images/uplogo.png";
-import movieLogo from "../images/movieLogo.png";
-import spidey from "../images/spidey.png";
-import jumanji from "../images/jumanji.png";
-import wolf from "../images/wolf.png";
-import mrs from "../images/mrs.png";
-import hob from "../images/hob.png";
-import spideyLogo from "../images/spideyLogo.png";
-import spideyScene from "../images/spideyScene.png";
+import realHair from "../images/real_hair.png";
+import realKhabib from "../images/realKhabib.jpg";
+import khabib from "../images/khabib.png";
+import vicky from "../images/vickyKaushal.jpg";
+import pikachu from "../images/Pikachu.jpg";
+import baby from "../images/baby2.jpg";
 import moralis from "../images/moralis.png";
 import moralisLogo from "../images/moralisLogo.png";
 import moralisScene from "../images/moralisScene.png";
 import jam from "../images/jam.png";
 import jamLogo from "../images/jamLogo.png";
 import jamScene from "../images/jamScene.png";
-import shrek from "../images/shrek.png";
-import lucy from "../images/lucy.png";
-import topgu from "../images/topgu.png";
-import imit from "../images/imit.png";
-import reven from "../images/reven.png";
-import tomb from "../images/tomb.png";
-import amaz from "../images/amaz.png";
-import bigs from "../images/bigs.png";
-import secona from "../images/secona.png";
-import ted from "../images/ted.png";
 
 export const movies = [
   {
     Movie: "",
-    Thumnbnail: upScene,
-    Scene: up,
-    Logo: upLogo,
-    Name: "Up",
-    Description:
-      "78-year-old balloon salesman Carl Fredricksen is about to fulfill a lifelong dream. Tying thousands of balloons to his house, he flies away to the South American wilderness. But curmudgeonly Carl's worst nightmare comes true when he discovers a stowaway aboard: a Boy Scout named Russell.",
-    Genre: "Family, Adventure",
+    Thumnbnail: realHair,
+    Scene: khabib,
+    Logo: "",
+    Name: "Realistic Hair",
+    Description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Genre: "Art, Tutorial",
     Actors: "Edward Asner, Jordan Nagai",
     Year: "2009",
     Duration: "1h 36m",
   },
   {
     Movie: "https://ipfs.moralis.io:2053/ipfs/QmNtxfy9Mk8qLsdGnraHGk5XDim8ayR93krM24ETJEd2bG/media/0",
-    Thumnbnail: spidey,
-    Scene: spideyScene,
-    Logo: spideyLogo,
-    Name: "Spiderman Homecoming",
-    Description: "Peter Parker tries to stop the Vulture from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.",
-    Genre: "Action, Superhero, Comedy",
+    Thumnbnail: realKhabib,
+    Scene: realKhabib,
+    Logo: "",
+    Name: "Khabib Nurmagomedov",
+    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Genre: "Art, Tutorial",
     Actors: "Tom Holland, Zendeya",
     Year: "2017",
     Duration: "2h 13min",
   },
   {
     Movie: "",
-    Thumnbnail: jumanji,
-    Scene: "",
+    Thumnbnail: vicky,
+    Scene: vicky,
     Logo: "",
-    Name: "Jumanji",
+    Name: "Vicky Kaushal",
     Description: "",
     Genre: "",
     Actors: "",
@@ -81,24 +62,24 @@ export const movies = [
   },
   {
     Movie: "",
-    Thumnbnail: wolf,
-    Scene: "",
+    Thumnbnail: pikachu,
+    Scene: pikachu,
     Logo: "",
-    Name: "Wolf Of Wallstreet",
+    Name: "Detective Pikachu",
     Description: "",
-    Genre: "",
+    Genre: "Art, Tutorial",
     Actors: "",
     Year: "",
     Duration: "",
   },
   {
     Movie: "",
-    Thumnbnail: mrs,
-    Scene: "",
+    Thumnbnail: baby,
+    Scene: baby,
     Logo: "",
-    Name: "Mr and Mrs Smith",
+    Name: "Realistic Baby Drwaing",
     Description: "",
-    Genre: "",
+    Genre: "Art, Tutorial",
     Actors: "",
     Year: "",
     Duration: "",
@@ -117,159 +98,62 @@ export const movies = [
   },
   {
     Movie: "",
-    Thumnbnail: hob,
-    Scene: "",
+    Thumnbnail: realHair,
+    Scene: realHair,
     Logo: "",
-    Name: "Hobbit",
+    Name: "Khabib Nurmagomendov",
+    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Genre: "Art, Tutorial",
+    Actors: "Edward Asner, Jordan Nagai",
+    Year: "2009",
+    Duration: "1h 36m",
+  },
+  {
+    Movie: "https://ipfs.moralis.io:2053/ipfs/QmNtxfy9Mk8qLsdGnraHGk5XDim8ayR93krM24ETJEd2bG/media/0",
+    Thumnbnail: realKhabib,
+    Scene: realKhabib,
+    Logo: "",
+    Name: "Khabib Nurmagomedov",
+    Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    Genre: "Art, Tutorial",
+    Actors: "Tom Holland, Zendeya",
+    Year: "2017",
+    Duration: "2h 13min",
+  },
+  {
+    Movie: "https://ipfs.moralis.io:2053/ipfs/QmWWnyCZwh8RVnamjeLhGmpYM2C3oDr3FzF7zgv5ur24z5/media/0",
+    Thumnbnail: moralis,
+    Scene: moralisScene,
+    Logo: moralisLogo,
+    Name: "Moralis Rap",
+    Description: "Moralis serverless Web3 Dapps, is a beautiful music video that tells a touching story of how anyone can become a Web3 developer if they put their trust in the hands of the musically gifted team at Moralis. ",
+    Genre: "Music Video",
+    Actors: "Ivan Liljeqvist, Filip Martinsson, CTO Larsson",
+    Year: "2021",
+    Duration: "1min 2sec",
+  },
+  {
+    Movie: "",
+    Thumnbnail: pikachu,
+    Scene: pikachu,
+    Logo: "",
+    Name: "Detective Pikachu",
     Description: "",
-    Genre: "",
+    Genre: "Art, Tutorial",
     Actors: "",
     Year: "",
     Duration: "",
   },
   {
     Movie: "",
-    Thumnbnail: shrek,
-    Scene: "",
+    Thumnbnail: baby,
+    Scene: baby,
     Logo: "",
-    Name: "",
+    Name: "Realistic Baby Drawing",
     Description: "",
-    Genre: "",
+    Genre: "Art, Tutorial",
     Actors: "",
     Year: "",
     Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: reven,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: imit,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: topgu,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: lucy,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: tpoh,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: tomb,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: amaz,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: bigs,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: secona,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: ted,
-    Scene: "",
-    Logo: "",
-    Name: "",
-    Description: "",
-    Genre: "",
-    Actors: "",
-    Year: "",
-    Duration: "",
-  },
-  {
-    Movie: "",
-    Thumnbnail: tita,
-    Scene: titanicS,
-    Logo: movieLogo,
-    Name: "Titanic",
-    Description:
-      "Staring Kate Winslet and Leonardo DiCaprio. The two play characters who are of different social classes. They fall in love after meeting aboard the ship, but it was not good for a rich girl to fall in love with a poor boy in 1912.",
-    Genre: "Romance, Drama",
-    Actors: "Kate Winslet, Leonardo DiCaprio",
-    Year: "1998",
-    Duration: "3h 14min",
   },
 ];
